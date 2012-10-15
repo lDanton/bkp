@@ -1,0 +1,45 @@
+! black
+URxvt*color0  : #4d4d4d
+URxvt*color8  : #3a3a3a
+! red
+URxvt*color9  : #9d2e40
+URxvt*color1  : #dd7383
+! green (purple)
+URxvt*color2: #69647a
+URxvt*color10: #38324a
+! yellow (orange)
+URxvt*color11: #bd6e1b
+URxvt*color3 : #e9a358
+! blue
+URxvt*color12: #3d3867
+URxvt*color4 : #8478a1
+! magenta
+URxvt*color13: #9c4a31
+URxvt*color5 : #ed8c59
+! cyan
+URxvt*color14: #565983
+URxvt*color6 : #999cc3
+! white
+URxvt*color15: #2d2d2d
+URxvt*color7 : #6d6d6d
+
+URxvt*scrollBar: false
+URxvt*background: #eeeeee
+URxvt*foreground: #2d2d2d
+URxvt*cursorUnderline: +uc
+
+URxvt*font: xft:profont:pixelsize=11
+URxvt*boldFont: xft:profont:pixelzize=11
+
+!URxvt.perl-ext-common: default,tabbed
+!URxvt.tabbed.tabbar-fg: -1
+!URxvt.tabbed.tabbar-bg: -1
+!URxvt.tabbed.tab-fg:    -1
+!URxvt.tabbed.tab-bg:    -1
+
+! URxvt.keysym.Mod4-c: perl:clipboard:copy
+! URxvt.keysym.Mod4-v: perl:clipboard:paste
+
+URxvt.perl-ext: default,matcher
+URXvt.urlLauncher: /home/diavorian/nightly/firefox
+URxvt.matcher.button: 1

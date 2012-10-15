@@ -1,0 +1,193 @@
+!!deafheaven (current)
+
+! black
+URxvt*color8  : #a4a4a4
+URxvt*color0  : #d3d3d3
+! red
+URxvt*color1  : #b6848b
+URxvt*color9  : #e5bac0
+! green (purple)
+URxvt*color2 : #af8ac7
+URxvt*color10  : #d7c7e2
+! yellow (orange)
+URxvt*color3  : #e4c07c
+URxvt*color11 : #f0daae
+! blue
+URxvt*color4  : #928ecb
+URxvt*color12 : #c9c7e3
+! magenta
+URxvt*color5  : #c48ba7
+URxvt*color13 : #debfcE
+! cyan
+URxvt*color14 : #a6adb1
+URxvt*color6  : #6896b2
+! white
+URxvt*color15 : #d3d3d3
+URxvt*color7  : #a4a4a4
+
+
+!!Switzerland
+
+! black
+!URxvt*color0 : #4d4d4d
+!URxvt*color8 : #3a3a3a
+! red
+!URxvt*color9 : #9d2e40
+!URxvt*color1 : #dd7383
+! green (purple)
+!URxvt*color2: #69647a
+!URxvt*color10: #38324a
+! yellow (orange)
+!URxvt*color11: #bd6e1b
+!URxvt*color3 : #e9a358
+! blue
+!URxvt*color12: #3d3867
+!URxvt*color4 : #8478a1
+! magenta
+!URxvt*color13: #9c4a31
+!URxvt*color5 : #ed8c59
+! cyan
+!URxvt*color14: #565983
+!URxvt*color6 : #999cc3
+! white
+!URxvt*color15: #2d2d2d
+!URxvt*color7 : #6d6d6d
+! fg/bg
+!URxvt*background: #eeeeee
+!URxvt*foreground: #2d2d2d
+
+!!October
+
+! black
+!URxvt*color0 : #4d4d4d
+!URxvt*color8 : #3a3a3a
+! red
+!URxvt*color9 : #9d2e40
+!URxvt*color1 : #dd7383
+! green (purple)
+!URxvt*color2: #69647a
+!URxvt*color10: #38324a
+! yellow (orange)
+!URxvt*color11: #b98214
+!URxvt*color3 : #e9ae41
+! blue
+!URxvt*color12: #3d3867
+!URxvt*color4 : #8478a1
+! magenta
+!URxvt*color13: #bc578f
+!URxvt*color5 : #e291be
+! cyan
+!URxvt*color14: #7477a2
+!URxvt*color6 : #999cc3
+! white
+!URxvt*color15: #2d2d2d
+!URxvt*color7 : #6d6d6d
+! fg/bg
+!URxvt*background: #eeeeee
+!URxvt*foreground: #2d2d2d
+
+
+!!Flower
+
+! black
+!URxvt*color0 : #4d4d4d
+!URxvt*color8 : #3a3a3a
+! red
+!URxvt*color9 : #9d2e40
+!URxvt*color1 : #dd7383
+! green (purple)
+!URxvt*color10: #8c6270
+!URxvt*color2: #ca839a
+! yellow (aqua)
+!URxvt*color11: #549397
+!URxvt*color3 : #9dbabd
+! blue
+!URxvt*color12: #3f5b8f
+!URxvt*color4 : #7e91b5
+! magenta
+!URxvt*color13: #bc578f
+!URxvt*color5 : #e291be
+! cyan
+!URxvt*color14: #7477a2
+!URxvt*color6 : #999cc3
+! white
+!URxvt*color15: #2d2d2d
+!URxvt*color7 : #6d6d6d
+! fg/bg
+!URxvt*background: #eeeeee
+!URxvt*foreground: #2d2d2d
+
+
+!!Horo
+
+! black
+!URxvt*color0 : #222222
+!URxvt*color8 : #353535
+! red
+!URxvt*color1 : #cd6979
+!URxvt*color9 : #f494a3
+! green (purple)
+!URxvt*color2 : #7c788e
+!URxvt*color10 : #a39fb4
+! yellow (aqua)
+!URxvt*color3 : #8ac3c8
+!URxvt*color11 : #a2c2c5
+! blue
+!URxvt*color4 : #4b4ca8
+!URxvt*color12 : #6666af
+! magenta
+!URxvt*color5 : #cb6aa0
+!URxvt*color13 : #eaa6cb
+! cyan
+!URxvt*color6 : #9a9dbb
+!URxvt*color14 : #c1c3dc
+! white
+!URxvt*color7 : #dab6ca
+!URxvt*color15 : #fdddef
+! fg/bg
+!URxvt*background: #1c1c1c
+!URxvt*foreground: #dab6ca
+
+
+!!Adventure Time
+
+! black
+!URxvt*color0 : #000000
+!URxvt*color8 : #151515
+! red
+!URxvt*color1 : #db5252
+!URxvt*color9 : #fc6a6a
+! green
+!URxvt*color2 : #4edd4d
+!URxvt*color10 : #61fd5f
+! yellow
+!URxvt*color3 : #dbe250
+!URxvt*color11 : #f9ff7f
+! blue
+!URxvt*color4 : #2e2767
+!URxvt*color12 : #554ca1
+! magenta
+!URxvt*color5 : #cf57a8
+!URxvt*color13 : #fa8bd6
+! cyan
+!URxvt*color6 : #5c5a8a
+!URxvt*color14 : #8c8aae
+! white
+!URxvt*color7 : #9c95b8
+!URxvt*color15 : #b4b2bd
+! fg/bg
+!URxvt*background: #000000
+!URxvt*foreground: #8b8aa2
+
+
+!!I excluded my Tacticool colors due to their lower quality relative to my others.
+
+
+URxvt*scrollBar: false
+URxvt*background: #1d1818
+URxvt*foreground: #f4f4f4
+
+URxvt.perl-ext: default,matcher
+URXvt.urlLauncher: /home/diavorian/nightly/firefox
+URxvt.matcher.button: 1
+

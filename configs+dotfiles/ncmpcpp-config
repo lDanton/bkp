@@ -1,0 +1,21 @@
+mpd_music_dir = "/home/diavorian/Music/"
+port          = "6600"
+mpd_host      = "127.0.0.1"
+
+song_list_format = "$3%a$9  $5%t$9  $R $8%b$9"
+song_status_format = "$8%a$9 - $8%t$9" 
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+
+header_visibility = "no"
+autocenter_mode = "yes"
+statusbar_visibility = "no"
+#statusbar_color = "black, normal"
+main_window_highlight_color = "black"
+discard_colors_if_item_is_selected = "no"
+progressbar_look = "->"
+#visualizer_look = "."
+
+#media_library_album_format
+
+display_bitrate = "yes"

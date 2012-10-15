@@ -1,0 +1,5 @@
+conky | while read line; do
+	xsetroot -name "$line";
+	done | while true; do
+exec dwm
+done

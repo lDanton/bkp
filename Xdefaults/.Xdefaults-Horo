@@ -1,0 +1,49 @@
+! black
+URxvt*color0  : #222222
+URxvt*color8  : #353535
+! red
+URxvt*color1  : #cd6979
+URxvt*color9  : #f494a3
+! green (purple)
+URxvt*color2  : #7c788e
+URxvt*color10 : #a39fb4
+! yellow (aqua)
+URxvt*color3  : #8ac3c8
+URxvt*color11 : #a2c2c5
+! blue
+URxvt*color4  : #4b4ca8
+URxvt*color12 : #6666af
+! magenta
+URxvt*color5  : #cb6aa0
+URxvt*color13 : #eaa6cb
+! cyan
+URxvt*color6  : #9a9dbb
+URxvt*color14 : #c1c3dc
+! white
+URxvt*color7  : #dab6ca
+URxvt*color15 : #fdddef
+
+URxvt*scrollBar: false
+URxvt*background: #1c1c1c
+URxvt*foreground: #dab6ca
+
+URxvt*font: xft:profont:pixelsize=11
+URxvt*boldFont: xft:profont:pixelzize=11
+!URxvt*font: xft:cure:pixelsize=11
+!URxvt*boldFont: xft:cure:pixelsize=11
+
+
+URxvt.perl-ext-common: default,tabbed
+URxvt.tabbed.tabbar-fg: -1
+URxvt.tabbed.tabbar-bg: -1
+URxvt.tabbed.tab-fg:    -1
+URxvt.tabbed.tab-bg:    -1
+
+! URxvt.keysym.Mod4-c: perl:clipboard:copy
+! URxvt.keysym.Mod4-v: perl:clipboard:paste
+
+URxvt.perl-ext: default,matcher
+URXvt.urlLauncher: ~/nightly/firefox
+URxvt.matcher.button: 1
+
+

@@ -1,0 +1,45 @@
+! black
+URxvt*color0  : #000000
+URxvt*color8  : #151515
+! red
+URxvt*color1  : #db5252
+URxvt*color9  : #fc6a6a
+! green
+URxvt*color2  : #4edd4d
+URxvt*color10 : #61fd5f
+! yellow
+URxvt*color3  : #dbe250
+URxvt*color11 : #f9ff7f
+! blue
+URxvt*color4  : #2e2767
+URxvt*color12 : #554ca1
+! magenta
+URxvt*color5  : #cf57a8
+URxvt*color13 : #fa8bd6
+! cyan
+URxvt*color6  : #5c5a8a
+URxvt*color14 : #8c8aae
+! white
+URxvt*color7  : #9c95b8
+URxvt*color15 : #b4b2bd
+
+URxvt*scrollBar: false
+URxvt*background: #000000
+URxvt*foreground: #8b8aa2
+
+URxvt*font: xft:profont:pixelsize=11
+URxvt*boldFont: xft:profont:pixelzize=11
+
+URxvt.perl-ext-common: default,tabbed
+URxvt.tabbed.tabbar-fg: -1
+URxvt.tabbed.tabbar-bg: -1
+URxvt.tabbed.tab-fg:    -1
+URxvt.tabbed.tab-bg:    -1
+
+URxvt.perl-ext: default,matcher
+URXvt.urlLauncher: ~/nightly/firefox
+URxvt.matcher.button: 1
+
+dzen2.font:       -*-profont-*-*-*-*-*-*-*-*-*-*-*-*
+dzen2.foreground: #bbbbbb
+dzen2.background: #000000
