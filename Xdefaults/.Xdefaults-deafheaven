@@ -24,7 +24,8 @@ URxvt*color15 : #d3d3d3
 URxvt*color7  : #a4a4a4
 
 URxvt*scrollBar: false
-URxvt*background: #1d1818
+!URxvt*background: #1d1818
+URxvt*background: #1f1616
 URxvt*foreground: #f4f4f4
 !URxvt*cursorUnderline: +uc
 

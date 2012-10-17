@@ -46,3 +46,6 @@ alias sabxy="clear;screenfetch;abxy"
 alias dpi="sudo dpkg -i"
 alias dpr="sudo dpkg-reconfigure"
 alias ab='cd ~/scrots;clear;scrot -d3 a.png;destred;scrot -cd4 b.png;convert +append a.png b.png ab.png;rm -rf a.png; rm -rf b.png'
+alias squares='cd ~/scripts/colortests;./squares'
+alias rice='clear;squares;gayt "                      WE RICE NOW SON";echo ;screenfetch;cd ~/scrots'
+alias du='cdu -d ch'

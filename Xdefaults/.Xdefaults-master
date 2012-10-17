@@ -7,11 +7,11 @@ URxvt*color0  : #d3d3d3
 URxvt*color1  : #b6848b
 URxvt*color9  : #e5bac0
 ! green (purple)
-URxvt*color2 : #af8ac7
-URxvt*color10  : #d7c7e2
+URxvt*color2  : #af8ac7
+URxvt*color10 : #d7c7e2
 ! yellow (orange)
-URxvt*color3  : #e4c07c
-URxvt*color11 : #f0daae
+URxvt*color3  : #e7a484
+URxvt*color11 : #e6c4b5
 ! blue
 URxvt*color4  : #928ecb
 URxvt*color12 : #c9c7e3
@@ -184,7 +184,7 @@ URxvt*color7  : #a4a4a4
 
 
 URxvt*scrollBar: false
-URxvt*background: #1d1818
+URxvt*background: #1f1616
 URxvt*foreground: #f4f4f4
 
 URxvt.perl-ext: default,matcher
