@@ -4,9 +4,9 @@
 
   [theme]
      # No name mean default
-     name = "blah"
+     name = "McNiggerton"
 
-     font = "-*-cure-*-*-*-*-12-*-*-*-*-*-*-*"
+     font = "-*-cure-*-*-*-*-11-*-*-*-*-*-*-*"
 
      # Bars
      bars_width = 14
@@ -34,19 +34,19 @@
      tags_border_width = 0
 
      # Frame / Client
-     client_normal_fg = "#c3c3c3"
-     client_normal_bg = "#c3c3c3"
+     client_normal_fg = "#4f3c3c"
+     client_normal_bg = "#4f3c3c"
      # client_normal_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
 
-     client_sel_fg = "#c3c3c3"
-     client_sel_bg = "#c3c3c3"
+     client_sel_fg = "#4f3c3c"
+     client_sel_bg = "#4f3c3c"
      # client_sel_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
 
      # client_free_statusline = ""
 
-     frame_bg = "#c3c3c3"
-     client_titlebar_width = 0
-     client_border_width = 0
+     frame_bg = "#4f3c3c"
+     client_titlebar_width = 1
+     client_border_width = 1
 
    [/theme]
 
@@ -105,8 +105,8 @@
 
 [client]
 
-  # Padding between clients (default: 0) :
-  padding = 130
+  # Padding between clients (default: 0) 
+  padding = 0
 
   # Give focus to new created client (default = false)
   autofocus = true
@@ -157,7 +157,13 @@
 
      width = 300
   [/launcher]
-
+  
+  [launcher]
+     name = "dmenu"
+     prompt = "run:"
+     command = "dmenu_run -p 'run' -fn '-*-cure-*-*-*-*-12-*-*-*-*-*-*-*' -nf '#c3c3c3' -nb '#3f3f3f' -sf '#f4f4f4' -sb '#3f3f3f'"
+     width = 300
+  [/launcher]
 [/launchers]
 
 [keys]
@@ -167,11 +173,12 @@
   [key] mod = {"Control", "Alt"} key = "r" func = "reload" [/key]
   [key] mod = {"Super"} key = "Up" func = "spawn" cmd = "amixer -q set Master 5%+ unmute" [/key]
   [key] mod = {"Super"} key = "Down" func = "spawn" cmd = "amixer -q set Master 5%- unmute" [/key]
-  [key] mod = {"Super"} key = "g" func = "spawn" cmd = "gvim" [/key]
+#  [key] mod = {"Super"} key = "g" func = "spawn" cmd = "gvim" [/key]
   [key] mod = {"Super"} key = "n" func = "spawn" cmd = "~/nightly/firefox" [/key]
-  [key] mod = {"Control"} key = "p" func = "spawn" cmd = "mpc toggle" [/key]
-  [key] mod = {"Control"} key = "Right" func = "spawn" cmd = "mpc next" [/key]
-  [key] mod = {"Control"} key = "Left" func = "spawn" cmd = "mpc prev" [/key]
+  [key] mod = {"Alt"} key = "p" func = "spawn" cmd = "mpc toggle" [/key]
+  [key] mod = {"Alt"} key = "Right" func = "spawn" cmd = "mpc next" [/key]
+  [key] mod = {"Alt"} key = "Left" func = "spawn" cmd = "mpc prev" [/key]
+  [key] mod = {"Super"} key = "d" func = "spawn" cmd = "dmenu_run -p 'run' -fn '-*-cure-*-*-*-*-12-*-*-*-*-*-*-*' -nf '#c3c3c3' -nb '#3f3f3f' -sf '#f4f4f4' -sb '#3f3f3f'" [/key]
 #  [key] mod = {"Super", "Alt"} key = "v" func = "layout_vmirror" [/key] [key] mod = {"Super", "Alt"} key = "h" func = "layout_hmirror" [/key] [key] mod = {"Super", "Alt"} key = "Left" func = 
 #  "layout_rotate_left" [/key] [key] mod = {"Super", "Alt"} key = "Right" func = "layout_rotate_right" [/key]
 

@@ -2,9 +2,10 @@
 
 autoload -U colors && colors
 
-PROMPT="%{$fg[white]%}%n %{$fg[magenta]%}[%d]
- >>$reset_color%} "
+#PROMPT="%{$fg[white]%}%n %{$fg[magenta]%}[%d]
+# >>$reset_color%} "
 #$fg[green]%}>implying
+PROMPT="%{$fg[magenta]%}~>%{$fg[red,bold]%}> "
 RPROMPT="%{$reset_color%}"
 
 setopt AUTO_CD
@@ -49,3 +50,7 @@ alias ab='cd ~/scrots;clear;scrot -d3 a.png;destred;scrot -cd4 b.png;convert +ap
 alias squares='cd ~/scripts/colortests;./squares'
 alias rice='clear;squares;gayt "                      WE RICE NOW SON";echo ;screenfetch;cd ~/scrots'
 alias du='cdu -d ch'
+alias gentoo='su -c "chroot /home/diavorian/gentoo /bin/zsh"'
+alias mgentoo='su -c "mount --bind /dev/pts /home/diavorian/gentoo/dev/pts;mount --bind /dev /home/diavorian/gentoo/dev;mount --bind /proc /home/diavorian/gentoo/proc;mount --bind /tmp /home/diavorian/gentoo/tmp;mount --bind /sys /home/diavorian/gentoo/sys"'
+alias ungentoo='su -c "umount /home/diavorian/gentoo/dev/pts;umount /home/diavorian/gentoo/dev;umount /home/diavorian/gentoo/proc;umount /home/diavorian/gentoo/sys;umount /home/diavorian/gentoo/tmp"'
+alias pk='sudo pkill'
