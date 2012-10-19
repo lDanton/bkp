@@ -27,8 +27,8 @@ URxvt*color0  : #d3d3d3
 
 URxvt*colorUL: #928ecb
 URxvt*underlineColor: #928ecb
-URxvt*colorBD: af8ac7
-URxvt*colorIT: af8ac7
+URxvt*colorBD: #af8ac7
+URxvt*colorIT: #af8ac7
 
 URxvt*cursorColor: #1f1616
 
