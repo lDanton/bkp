@@ -26,5 +26,5 @@ https://goput.it/ee5.png
 Flower2:
 https://goput.it/pao.gif
 
-Winter/Blu:
+Winter/Blu (current as of 25 Oct. 2012):
 https://goput.it/rpm.png
