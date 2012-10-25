@@ -12,7 +12,7 @@ Horo:
 https://goput.it/6fk.png
 
 Flower:
-http://goput.it/qt4.png
+https://goput.it/qt4.png
 
 October:
 https://goput.it/cnw.gif
