@@ -15,10 +15,10 @@ Flower:
 http://goput.it/qt4.png
 
 October:
-http://goput.it/cnw.gif
+https://goput.it/cnw.gif
 
 Switzerland:
-http://goput.it/7k1.png
+https://goput.it/7k1.png
 
 deafheaven (current as of 17 Oct. 2012):
 https://goput.it/ee5.png
