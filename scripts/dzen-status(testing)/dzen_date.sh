@@ -16,7 +16,7 @@ LINES="11"
 totaldays=$(date +"%j")
 totalweeks=$(date +"%U")
 ti=$(date | awk -F " " '{print $4}')
-calendar=$(cal -1)
+calendar=$(cal -1h)
 timealivesecs=$(date -d 1994-10-18 +%s)
 timealivedays=$(( $timealivesecs / 86400 ))
 

@@ -13,7 +13,7 @@ dte(){
     dte="$(date +"%a %d/%m")"
     tme="$(date +"%H:%M")"
 #    echo "^s[right;$red;$dte ] ^s[right;$cyan;$tme]"    
-    echo "^s[right;$red;$dte ] ^s[right;$cyan;$tme](1;spawn;~/scripts/stats/dzen_date.sh)"
+    echo "^s[right;$red;$dte ] ^s[right;$cyan;$tme ](1;spawn;~/scripts/stats/dzen_date.sh)"
 
 }
 
