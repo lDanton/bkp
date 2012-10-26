@@ -6,7 +6,7 @@
 #red="#9693b5"
 
 FONT="-*-cure-*-*-*-*-11-*-*-*-*-*-*-*"
-XPOS=$(( $(xdotool getmouselocation | awk -F " " '{print $1}' | cut -d ":" -f 2) - 150 ))
+XPOS=$(( $(xdotool getmouselocation | awk -F " " '{print $1}' | cut -d ":" -f 2) - 140 ))
 YPOS="20"
 HEIGHT="11"
 WIDTH="140"
@@ -16,8 +16,9 @@ LINES="11"
 totaldays=$(date +"%j")
 totalweeks=$(date +"%U")
 ti=$(date | awk -F " " '{print $4}')
+day=$(date +%D)
 calendar=$(cal -1h)
-timealivesecs=$(date -d 1994-10-18 +%s)
-timealivedays=$(( $timealivesecs / 86400 ))
+#timealivesecs=$(date -d 1994-10-18 +%s)
+#timealivedays=$(( $timealivesecs / 86400 ))
 
-(echo "time/date"; echo "$calendar"; echo "time: $ti"; echo "days: $totaldays"; echo "week: $totalweeks"; echo "lifetime: $timealivedays days"; sleep 1) | dzen2 -bg "#2c3035" -fn $FONT -x $XPOS -y $YPOS -w $WIDTH -h $HEIGHT -l $LINES -e 'onstart=uncollapse;button1=exit;button2=exit;button3=exit;button4=exit;button5=exit'
+(echo "date/time"; echo "$calendar"; echo "time: $ti"; echo "date: $day"; echo "week: $totalweeks"; sleep 1) | dzen2 -bg "#2c3035" -fn $FONT -x $XPOS -y $YPOS -w $WIDTH -h $HEIGHT -l $LINES -e 'onstart=uncollapse;button1=exit;button2=exit;button3=exit;button4=exit;button5=exit'
