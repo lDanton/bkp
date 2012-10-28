@@ -22,7 +22,6 @@ if [ "`mpc 2>&1 | wc -l`" -gt "1" ]; then
    ti=`mpc current -f %time%`
    
    (echo mpd; echo " "; echo "np: $np"; echo "artist: $artist"; echo "album: $album"; echo "time: $ti"; sleep 1) | dzen2 -bg "#2c3035" -fn $FONT -x $XPOS -y $YPOS -w $WIDTH -h $HEIGHT -l $LINES -e 'onstart=uncollapse;button1=exit;button2=exit;button3=exit;button4=exit;button5=exit'
-   fi
 else
    (echo mpd; echo " "; echo "not playing anything."; sleep 1) | dzen2 -bg "#2c3035" -fn $FONT -x $XPOS -y $YPOS -w $WIDTH2 -h $HEIGHT2 -l $LINES2 -ta $ALIGN -sa $ALIGN -e 'onstart=uncollapse;button1=exit;button2=exit;button3=exit;button4=exit;button5=exit'
 fi
