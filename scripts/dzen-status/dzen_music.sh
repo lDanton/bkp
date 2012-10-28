@@ -16,6 +16,7 @@ if [ "`mpc 2>&1 | wc -l`" -gt "1" ]; then
         np="`mpc current` (paused)"
    else
 	np=`mpc current`
+   fi
    artist=`mpc current -f %artist%`
    album=`mpc current -f %album%`
    ti=`mpc current -f %time%`
