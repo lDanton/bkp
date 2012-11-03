@@ -4,7 +4,7 @@
 
   [theme]
      # No name mean default
-     name = "blah"
+     name = "default"
 
      font = "-*-cure-*-*-*-*-11-*-*-*-*-*-*-*"
 
@@ -50,6 +50,104 @@
 
    [/theme]
 
+   [theme]
+     # No name mean default
+     name = "bright"
+
+     font = "-*-cure-*-*-*-*-12-*-*-*-*-*-*-*"
+
+     # Bars
+     bars_width = 14
+     bars_fg = "#3a3a3a"
+     bars_bg = "#f9f9f9"
+
+     # Element tags
+     tags_normal_fg = "#b4b4b4"
+     tags_normal_bg = "#f9f9f9"
+     # tags_normal_statusline = ""
+
+     tags_sel_fg = "#38324a"
+     tags_sel_bg = "#f9f9f9"
+     # tags_sel_statusline = "\R[0;0;100;1;#c1c3dc]"
+
+     tags_occupied_fg = "#e9ae41"
+     tags_occupied_bg = "#f9f9f9"
+     # tags_occupied_statusline = "\R[0;0;100;1;#f494a3]"
+
+     tags_urgent_fg = "#5d5d5d"
+     tags_urgent_bg = "#3f3f3f"
+     # tags_urgent_statusline = ""
+
+     tags_border_color = "#f9f9f9"
+     tags_border_width = 0
+
+     # Frame / Client
+     client_normal_fg = "#eeeeee"
+     client_normal_bg = "#eeeeee"
+     # client_normal_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
+
+     client_sel_fg = "#eeeeee"
+     client_sel_bg = "#eeeeee"
+     # client_sel_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
+
+     # client_free_statusline = ""
+
+     frame_bg = "#c3c3c3"
+     client_titlebar_width = 0
+     client_border_width = 0
+
+    [/theme]
+
+    [theme]
+     # No name mean default
+     name = "switzerland"
+
+     font = "-*-cure-*-*-*-*-11-*-*-*-*-*-*-*"
+
+     # Bars
+     bars_width = 14
+     bars_fg = "#777777"
+     bars_bg = "#f9f9f9"
+
+     # Element tags
+     tags_normal_fg = "#b4b4b4"
+     tags_normal_bg = "#f9f9f9"
+     # tags_normal_statusline = ""
+
+     tags_sel_fg = "#c3c3c3"
+     tags_sel_bg = "#4c4c4c"
+     # tags_sel_statusline = "\R[0;0;100;1;#c1c3dc]"
+
+     tags_occupied_fg = "5a5a5a"
+     tags_occupied_bg = "#aeaeae"
+     # tags_occupied_statusline = "\R[0;0;100;1;#f494a3]"
+
+     tags_urgent_fg = "#5d5d5d"
+     tags_urgent_bg = "#3f3f3f"
+     # tags_urgent_statusline = ""
+
+     tags_border_color = "#f9f9f9"
+     tags_border_width = 0
+
+     # Frame / Client
+     client_normal_fg = "#eaeaea"
+     client_normal_bg = "#eaeaea"
+     # client_normal_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
+
+     client_sel_fg = "#eaeaea"
+     client_sel_bg = "#eaeaea"
+     # client_sel_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
+
+     # client_free_statusline = ""
+
+     frame_bg = "#eaeaea"
+     client_titlebar_width = 1
+     client_border_width = 1
+
+    [/theme]
+
+
+
 [/themes]
 
 [bars]
@@ -65,7 +163,7 @@
      position = 0
      screen = 0
      elements = "tls" # element order in bar
-     theme = "default"
+     theme = "switzerland"
   [/bar]
 
 # [bar]
@@ -80,12 +178,12 @@
 
   # Use no screen option or screen = -1 to set tag on each screen
 
-  [tag] name = "br" [/tag] #browser
-  [tag] name = "te" [/tag] #terms
-  [tag] name = "wo" [/tag] #work
-  [tag] name = "sc" [/tag] #scrot
-  [tag] name = "ae" [/tag] #a etc
-  [tag] name = "be" [/tag] #b etc
+  [tag] name = ":::" [/tag] #browser;br
+  [tag] name = ":::" [/tag] #terms;te
+  [tag] name = ":::" [/tag] #work;wo
+  [tag] name = ":::" [/tag] #scrot;sc
+  [tag] name = ":::" [/tag] #a etc;ae
+#  [tag] name = ":::" [/tag] #b etc;be
 #  [tag] name = "ce" [/tag] #c etc
 
 

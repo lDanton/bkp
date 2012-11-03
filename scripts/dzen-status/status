@@ -4,7 +4,7 @@ kill $(ps U $UID | awk '/scripts/&&/status/' | grep -vi "$$\|grep\|awk" | awk '{
 
 #colors
 purple="#b6848b"
-cyan="#c5c5c5"
+cyan="#777777"
 red="#9693b5"
 
 

@@ -1,29 +1,63 @@
+!!Blu
+
+! black
+URxvt*color0  : #d9d9d9
+URxvt*color8  : #a5a5a5
+! red
+URxvt*color1  : #b6848b
+URxvt*color9  : #e5bac0 
+! purple
+URxvt*color2: #af8ac7
+URxvt*color10: #d7c7e2
+! green
+URxvt*color11: #b7d5c9
+URxvt*color3 : #95afa4
+! blue
+URxvt*color4  : #9693b5
+URxvt*color12 : #c9c7e3
+! magenta
+URxvt*color5: #c48ba7
+URxvt*color13 : #debfce
+! cyan
+URxvt*color14 : #afc2cf
+URxvt*color6  : #7b8f9b
+! white
+URxvt*color7 : #a5a5a5
+URxvt*color15 : #d9d9d9
+
+URxvt*scrollBar: false
+URxvt*background: #2c3035
+!URxvt*background: #201f27
+URxvt*cursorUnderline: true
+URxvt*cursorColor: #2c3035
+
+
 !!deafheaven (current)
 
 ! black
-URxvt*color8  : #a4a4a4
-URxvt*color0  : #d3d3d3
+!URxvt*color8  : #a4a4a4
+!URxvt*color0  : #d3d3d3
 ! red
-URxvt*color1  : #b6848b
-URxvt*color9  : #e5bac0
+!URxvt*color1  : #b6848b
+!URxvt*color9  : #e5bac0
 ! green (purple)
-URxvt*color2  : #af8ac7
-URxvt*color10 : #d7c7e2
+!URxvt*color2  : #af8ac7
+!URxvt*color10 : #d7c7e2
 ! yellow (orange)
-URxvt*color3  : #e7a484
-URxvt*color11 : #e6c4b5
+!URxvt*color3  : #e7a484
+!URxvt*color11 : #e6c4b5
 ! blue
-URxvt*color4  : #928ecb
-URxvt*color12 : #c9c7e3
+!URxvt*color4  : #928ecb
+!URxvt*color12 : #c9c7e3
 ! magenta
-URxvt*color5  : #c48ba7
-URxvt*color13 : #debfcE
+!URxvt*color5  : #c48ba7
+!URxvt*color13 : #debfcE
 ! cyan
-URxvt*color14 : #a6adb1
-URxvt*color6  : #6896b2
+!URxvt*color14 : #a6adb1
+!URxvt*color6  : #6896b2
 ! white
-URxvt*color15 : #d3d3d3
-URxvt*color7  : #a4a4a4
+!URxvt*color15 : #d3d3d3
+!URxvt*color7  : #a4a4a4
 
 
 !!Switzerland
