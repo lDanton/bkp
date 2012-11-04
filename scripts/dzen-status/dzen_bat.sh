@@ -14,5 +14,7 @@ LINES="3"
 ALIGN="center"
 
 pwr="$(acpi)"
-
+if [ "`acpi`" == "" ]; then
+	pwr="on ac at the moment"
+fi
 (echo 'bat'; echo ' '; echo "$pwr"; sleep 1) | dzen2 -bg $BG2 -fg $FG2 -fn $FONT -x $XPOS -y $YPOS -h $HEIGHT -w $WIDTH -sa $ALIGN -l $LINES -e 'onstart=uncollapse;button1=exit;button2=exit;button3=exit;button4=exit;button5=exit'

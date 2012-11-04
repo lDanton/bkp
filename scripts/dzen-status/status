@@ -26,7 +26,9 @@ pwr(){
     else
         pwr="$pwrperc"
     fi
-#    echo "^s[right;$red;bat ]^s[right;$cyan;$pwr ]"    
+    if [ "$pwrperc" == "" ]; then
+	pwr="on ac"
+    fi   
    echo "^s[right;$red;bat ]^s[right;$cyan;$pwr ](1;spawn;~/scripts/stats/dzen_bat.sh)"
 
 }
