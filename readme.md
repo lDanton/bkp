@@ -27,4 +27,5 @@ Flower2:
 https://goput.it/pao.gif
 
 Winter/Blu (current as of 25 Oct. 2012):
-https://goput.it/rpm.png
+https://goput.it/hso.gif
+https://goput.it/2jr.png
