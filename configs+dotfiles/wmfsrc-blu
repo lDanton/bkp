@@ -6,7 +6,8 @@
      # No name mean default
      name = "default"
 
-     font = "-*-cure-*-*-*-*-11-*-*-*-*-*-*-*"
+     font = "-*-cure-*-*-*-*-10-*-*-*-*-*-*-*"
+#     font = "-*-lime-*-*-*-*-10-*-*-*-*-*-iso10646-*"
 
      # Bars
      bars_width = 14
@@ -34,17 +35,17 @@
      tags_border_width = 0
 
      # Frame / Client
-     client_normal_fg = "#4d556d"
-     client_normal_bg = "#4d556d"
+     client_normal_fg = "#636363"
+     client_normal_bg = "#636363"
      # client_normal_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
 
-     client_sel_fg = "#4d556d"
-     client_sel_bg = "#4d556d"
+     client_sel_fg = "#636363"
+     client_sel_bg = "#636363"
      # client_sel_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
 
      # client_free_statusline = ""
 
-     frame_bg = "#4f3c3c"
+     frame_bg = "#636363"
      client_titlebar_width = 0
      client_border_width = 0
 
@@ -54,7 +55,10 @@
      # No name mean default
      name = "bright"
 
-     font = "-*-cure-*-*-*-*-12-*-*-*-*-*-*-*"
+     font = "-*-cure-*-*-*-*-10-*-*-*-*-*-*-*"
+#     font = "-*-lime-*-*-*-*-10-*-*-*-*-*-iso10646-*"
+#     font = "-*-tewi-*-*-*-*-12-*-*-*-*-*-*-*"
+
 
      # Bars
      bars_width = 14
@@ -102,7 +106,11 @@
      # No name mean default
      name = "switzerland"
 
+#     font = "-*-lime-*-*-*-*-10-*-*-*-*-*-iso10646-*"
+
      font = "-*-cure-*-*-*-*-11-*-*-*-*-*-*-*"
+#     font = "-*-tewi-*-*-*-*-12-*-*-*-*-*-*-*"
+
 
      # Bars
      bars_width = 14
@@ -118,7 +126,7 @@
      tags_sel_bg = "#4c4c4c"
      # tags_sel_statusline = "\R[0;0;100;1;#c1c3dc]"
 
-     tags_occupied_fg = "5a5a5a"
+     tags_occupied_fg = "#5a5a5a"
      tags_occupied_bg = "#aeaeae"
      # tags_occupied_statusline = "\R[0;0;100;1;#f494a3]"
 
@@ -130,19 +138,19 @@
      tags_border_width = 0
 
      # Frame / Client
-     client_normal_fg = "#eaeaea"
-     client_normal_bg = "#eaeaea"
+     client_normal_fg = "#7f7f7f"
+     client_normal_bg = "#7f7f7f"
      # client_normal_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
 
-     client_sel_fg = "#eaeaea"
-     client_sel_bg = "#eaeaea"
+     client_sel_fg = "#7f7f7f"
+     client_sel_bg = "#7f7f7f"
      # client_sel_statusline = "\s[3;9;#121212;x] \s[2;8;#ff0000;x](1;client_close)"
 
      # client_free_statusline = ""
 
-     frame_bg = "#eaeaea"
-     client_titlebar_width = 1
-     client_border_width = 1
+     frame_bg = "#7f7f7f"
+     client_titlebar_width = 0
+     client_border_width = 0
 
     [/theme]
 
@@ -178,16 +186,18 @@
 
   # Use no screen option or screen = -1 to set tag on each screen
 
-  [tag] name = ":::" [/tag] #browser;br
+  [tag] name = ":::" [/tag] #browserbr
+#  [tag] name = "一" [/tag]
   [tag] name = ":::" [/tag] #terms;te
-  [tag] name = ":::" [/tag] #work;wo
-  [tag] name = ":::" [/tag] #scrot;sc
-  [tag] name = ":::" [/tag] #a etc;ae
-#  [tag] name = ":::" [/tag] #b etc;be
-#  [tag] name = "ce" [/tag] #c etc
+#  [tag] name = "ニ" [/tag]
+#  [tag] name = "三" [/tag] #work;wo
+  [tag] name = ":::" [/tag]
+#  [tag] name = "四" [/tag] #scrot;sc
+  [tag] name = ":::" [/tag]
+#  [tag] name = "五" [/tag] #a etc;ae
+  [tag] name = ":::" [/tag]
 
-
-
+ 
   # Mousebinds associated to Tags element button
   [mouse] button = "1" func = "tag_click" [/mouse]
   [mouse] button = "4" func = "tag_next" [/mouse]
@@ -199,7 +209,7 @@
 [client]
 
   # Padding between clients (default: 0) 
-  padding = 19
+ # padding = 5
 
   # Give focus to new created client (default = false)
   autofocus = true
@@ -264,8 +274,11 @@
   [key] mod = {"Alt"} key = "p" func = "spawn" cmd = "mpc toggle" [/key]
   [key] mod = {"Alt"} key = "Right" func = "spawn" cmd = "mpc next" [/key]
   [key] mod = {"Alt"} key = "Left" func = "spawn" cmd = "mpc prev" [/key]
-  [key] mod = {"Super"} key = "d" func = "spawn" cmd = "dmenu_run -p 'run' -fn '-*-cure-*-*-*-*-11-*-*-*-*-*-*-*' -nf '#c3c3c3' -nb '#3f3f3f' -sf '#f4f4f4' -sb '#3f3f3f'" [/key]
-
+  [key] mod = {"Super"} key = "d" func = "spawn" cmd = "dmenu_run -p 'run' -fn '-*-cure-*-*-*-*-11-*-*-*-*-*-*-*' -nf '#c3c3c3' -nb '#f9f9f9' -sf '#777777' -sb '#f9f9f9'" [/key]
+  [key] mod = {"Alt"} key = "1" func = "spawn" cmd = "~/scripts/stats/dzen_music.sh" [/key]
+  [key] mod = {"Alt"} key = "2" func = "spawn" cmd = "~/scripts/stats/dzen_bat.sh" [/key]
+  [key] mod = {"Alt"} key = "3" func = "spawn" cmd = "~/scripts/stats/dzen_date.sh" [/key]
+  
   # Tag manipulation
   [key] mod = {"Super"} key = "F1" func = "tag_set" cmd = "0" [/key]
   [key] mod = {"Super"} key = "F2" func = "tag_set" cmd = "1" [/key]
