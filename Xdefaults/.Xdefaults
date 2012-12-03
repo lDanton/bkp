@@ -1,6 +1,6 @@
 ! black
-URxvt*color8  : #d9d9d9
-URxvt*color0  : #a5a5a5
+URxvt*color8  : #555555
+URxvt*color0  : #999999
 ! red
 URxvt*color1  : #c29198
 URxvt*color9  : #a0616a
@@ -20,7 +20,7 @@ URxvt*color13 : #9c6f85
 URxvt*color6  : #7b8f9b
 URxvt*color14 : #566a75
 ! white
-URxvt*color7  : #999999
+URxvt*color7  : #aaaaaa
 URxvt*color15 : #696969
 
 URxvt*scrollBar: false
@@ -45,5 +45,5 @@ URxvt*boldFont: xft:lime:pixelzize=10
 ! URxvt.keysym.Mod4-v: perl:clipboard:paste
 
 URxvt.perl-ext: default,matcher
-URXvt.urlLauncher: /home/diavorian/nightly/firefox
+URXvt.urlLauncher: firefox
 URxvt.matcher.button: 1
