@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 # Prints the current time.
-date +"%H:%M "
-
+tme="$(date +"%H:%M ")"
+echo ☻ $tme
 exit 0

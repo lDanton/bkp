@@ -30,7 +30,7 @@ now_playing+=(["script"]="${segments_path}/np_mpd_simple.sh")
 #now_playing+=(["script"]="${segments_path}/np_rdio_mac.sh")
 #now_playing+=(["script"]="${segments_path}/np_cmus.sh")
 if [[ ${now_playing["script"]} ]]; then
-	now_playing+=(["foreground"]="blue")
+	now_playing+=(["foreground"]="blue,bold")
 	now_playing+=(["background"]="#eaeaea")
 	now_playing+=(["separator"]="")
 	register_segment "now_playing"
@@ -39,7 +39,7 @@ fi
 
 declare -A battery
 battery+=(["script"]="${segments_path}/battery.sh")
-battery+=(["foreground"]="red")
+battery+=(["foreground"]="magenta,bold")
 battery+=(["background"]="#eaeaea")
 if [ "`mpc 2>&1 | wc -l`" -gt "1" ]; then
    if [ "`mpc | grep "^\[paused\]"`" != "" ]; then
@@ -61,7 +61,7 @@ date_day+=(["background"]="#eaeaea")
 date_day+=(["separator"]="|")
 date_day+=(["separator_fg"]="default")
 date_day+=(["separator_bg"]="#eaeaea")
-register_segment "date_day"
+#register_segment "date_day"
 
 declare -A date_full
 date_full+=(["script"]="${segments_path}/date_full.sh")
@@ -70,15 +70,14 @@ date_full+=(["background"]="#eaeaea")
 date_full+=(["separator"]="")
 date_full+=(["separator_fg"]="#eaeaea")
 date_full+=(["separator_bg"]="#eaeaea")
-
-register_segment "date_full"
+#register_segment "date_full"
 
 declare -A time
 time+=(["script"]="${segments_path}/time.sh")
-time+=(["foreground"]="magenta")
+time+=(["foreground"]="white,bold")
 time+=(["background"]="#eaeaea")
-time+=(["separator"]="")
-time+=(["separator_fg"]="#eaeaea")
+time+=(["separator"]="|")
+time+=(["separator_fg"]="default")
 time+=(["separator_bg"]="#eaeaea")
 
 register_segment "time"
