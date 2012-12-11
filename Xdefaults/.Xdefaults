@@ -4,36 +4,40 @@ URxvt*color0  : #999999
 ! red
 URxvt*color1  : #c29198
 URxvt*color9  : #a0616a
-! purple
+! yellow/orange
+!URxvt*color3  : #cfa688
+!URxvt*color11  : #b67d54
 URxvt*color3 : #b49ec2
 URxvt*color11: #967ea6
 ! green
 URxvt*color2 : #95afa4
-URxvt*color10: #55967a
+URxvt*color10  : #55967a
 ! blue
-URxvt*color4  : #9693b5
+URxvt*color4 : #9693b5
 URxvt*color12 : #6d6b89
 ! magenta
-URxvt*color5  : #c48ba7
-URxvt*color13 : #9c6f85
+URxvt*color5 : #d2a39a
+URxvt*color13  : #c6646e
 ! cyan
-URxvt*color6  : #7b8f9b
-URxvt*color14 : #566a75
-! white
-URxvt*color7  : #aaaaaa
-URxvt*color15 : #696969
+URxvt*color6 : #7b8f9b
+URxvt*color14  : #566a75
+
+URxvt*color7 : #a2a2a2
+URxvt*color15  : #676767
 
 URxvt*scrollBar: false
-!URxvt*background: #454451
-URxvt*background: #eaeaea
+URxvt*background: #eeeeee
 URxvt*foreground: #777777
 URxvt*cursorUnderline: true
 URxvt*cursorColor: #eaeaea
 URxvt*colorUL: #9693b5
 !URxvt*colorBD: #af8ac1
+URxvt*internalBorder: 5
+URxvt*borderColor: #eeeeee
+URxvt*iso14755: false
 
-URxvt*font: xft:lime:pixelsize=10
-URxvt*boldFont: xft:lime:pixelzize=10
+URxvt*font: xft:limey:pixelsize=10
+URxvt*boldFont: xft:limey:pixelzize=10
 
 !URxvt.perl-ext-common: default,tabbed
 !URxvt.tabbed.tabbar-fg: -1
