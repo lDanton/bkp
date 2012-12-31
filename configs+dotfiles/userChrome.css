@@ -1,7 +1,7 @@
 #appcontent,
     #appcontent > #content,
     #appcontent > #content > tabbox > tabpanels {
-      background: #2c2c2c !important;
+      background: #eeeeee !important;
     }
      
     #main-window[stylish-url="about:blank"]:not([onclose^="PrintUtils"]):not([title^="Source Chart"]):not([chromehidden="menubar toolbar directories extrachrome "]) #content browser:not([src]){
@@ -21,20 +21,20 @@
      
     tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
         -moz-appearance: none !important;
-        border-radius: 0px !important;
-        border: 0 !important;
+	border-radius: 0px !important;
+        border: 1px #c3c3c3 !important;
         background-image: none !important;
         margin-top: 0px !important;
-        max-height: 16px !important;
-        min-height: 16px !important;
+        max-height: 14px !important;
+        min-height: 14px !important;        
     }
      
     tabs#tabbrowser-tabs {
-        background: #3f3f3f !important;
+        background: #fbfbfb !important;
         padding-top: 0px !important;
         margin-left: 0px !important;
         padding-top: 0px !important;
-        border-bottom: 0px solid #3f3f3f !important;
+        border-bottom: 1px #707070 !important;
         text-align: center !important;
     }
      
@@ -42,13 +42,17 @@
             max-height: 16px !important;
             margin-left: 0px !important;
             padding-top: 2px !important;
-            color: #f4f4f4 !important;
-            background: #4c4c4c !important;
+            color: #a2a2a2 !important;
+            border-bottom: 1px #707070 !important;
+            background: #fbfbfb !important;
+	    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.1) !important;
     }
      
     .tabbrowser-tab[selected=true] {
-            color: #f4f4f4 !important;
-            background: #6c6c6c !important;
+            color: #1c1c1c !important;
+            background: #eeeeee !important;
+            border-bottom: 1px #eeeeee !important;
+
     }
      
     .tabbrowser-tab .tab-text {
